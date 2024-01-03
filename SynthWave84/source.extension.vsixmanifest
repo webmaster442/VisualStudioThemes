@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" ?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="SynthWave84.f8d303ea-b548-4fe1-ad68-ef12dad4a00f" Version="1.0" Language="en-US" Publisher="Ruzsinszki Gábor" />
+        <DisplayName>SynthWave84</DisplayName>
+        <Description xml:space="preserve">Synthwave84 theme ported from https://github.com/robb0wen/synthwave-vscode</Description>
+        <MoreInfo>https://github.com/webmaster442/VisualStudioThemes</MoreInfo>
+        <Icon>SynthWave84.png</Icon>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="SynthWave84.pkgdef" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
